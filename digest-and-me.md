@@ -78,12 +78,12 @@ Note:
 
 ---
 
-## DLACZEGO?
+## Why?
 
 Note:
 - okazało się, że Angular nie robi niczego automagicznie, bo niby dlaczego by miał
 - za 2-way data bindingiem stoi mechanizm digest loop i dirty checkingu
-- każdy utworzony binding np. reagujący na click, tworzy nowy $$watcher, który wpada do listy $$watchers
+- każdy utworzony binding np. reagujący na click, tworzy nowy $$watcher
 
 ---
 
